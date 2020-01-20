@@ -30,6 +30,7 @@ export default class App extends Component {
     this.setState({
       searchQuery: text,
       items: [],
+      pageNumber: 1,
     });
   };
 
